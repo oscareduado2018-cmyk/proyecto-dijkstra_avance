@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Camino mínimo - Dijkstra</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Problema del camino mínimo (Dijkstra)</h1>
+  </header>
+
+  <main>
+  <div class="caja">
+    <label>Cantidad de nodos (7 a 16):</label>
+    <input type="number" id="cantidadNodos" min="7" max="16" value="8">
+    <button id="botonGenerar">Generar grafo aleatorio</button>
+  </div>
+
+  <canvas id="lienzo" width="700" height="420"></canvas>
+
+  <div class="caja">
+    <label>Origen:</label>
+    <select id="selectOrigen"></select>
+    <label>Destino:</label>
+    <select id="selectDestino"></select>
+    <button id="botonCalcular">Calcular camino mínimo</button>
+  </div>
+
+  <div class="caja">
+    <h3>Resultado</h3>
+    <p id="resultado">Primero genera un grafo.</p>
+    <h3>Pasos del algoritmo</h3>
+    <ol id="listaPasos"></ol>
+  </div>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

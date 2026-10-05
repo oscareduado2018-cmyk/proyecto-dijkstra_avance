@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background: #c8102e;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+main {
+  max-width: 760px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.caja {
+  margin: 12px 0;
+}
+
+canvas {
+  border: 1px solid #999;
+  background: white;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #c8102e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #9e0c24;
+}
+
+h3 {
+  color: #c8102e;
+}
+
